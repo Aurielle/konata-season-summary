@@ -1,0 +1,4 @@
+{contentType text}
+nick zpracovatele;jmeno obrazku;jmeno anime;popis;studio;Anidb;oficialni web;Upoutavka Youtube;Clanek na Konate #1;Clanek na Konate #2;Clanek na Konate #3;Premiera
+{foreach $data as $i};{$i->pic};{$i->name};;{foreach $i->studio as $st}{$st}{sep}, {/sep}{/foreach};{$i->id};{$i->url};;;;;{$i->premiere|date:"d.m.Y"}{sep}
+{/sep}{/foreach}

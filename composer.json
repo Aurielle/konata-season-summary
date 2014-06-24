@@ -1,0 +1,18 @@
+{
+    "name": "aurielle/konata-season-summary",
+    "description": "CLI tool for grabbing anime information used on season charts on Konata.cz.",
+    "version": "1.0.0",
+    "homepage": "http://www.konata.cz",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vaclav Vrbka",
+            "homepage": "http://aurielle.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "nette/nette": "2.1.*",
+        "kdyby/curl": "2.0.*"
+    }
+}

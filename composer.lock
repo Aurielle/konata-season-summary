@@ -1,0 +1,144 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "bb9483a5989a973082c22def824dc57f",
+    "packages": [
+        {
+            "name": "kdyby/curl",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kdyby/Curl.git",
+                "reference": "6a0f6f9ace91ded2044776a7e5d97371a6d191a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kdyby/Curl/zipball/6a0f6f9ace91ded2044776a7e5d97371a6d191a6",
+                "reference": "6a0f6f9ace91ded2044776a7e5d97371a6d191a6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "nette/nette": "~2.1@dev"
+            },
+            "require-dev": {
+                "nette/tester": "@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kdyby\\Curl": "src/"
+                },
+                "classmap": [
+                    "src/Kdyby/Curl/exceptions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Filip Procházka",
+                    "email": "filip@prochazka.su",
+                    "homepage": "http://filip-prochazka.com"
+                }
+            ],
+            "description": "Curl wrapper for Nette Framework",
+            "homepage": "http://kdyby.org",
+            "keywords": [
+                "curl",
+                "http",
+                "nette"
+            ],
+            "time": "2014-01-08 12:16:14"
+        },
+        {
+            "name": "nette/nette",
+            "version": "v2.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/nette.git",
+                "reference": "a862bf4cb9a53e7c13c0d4f0b2394b9a2097d604"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/nette/zipball/a862bf4cb9a53e7c13c0d4f0b2394b9a2097d604",
+                "reference": "a862bf4cb9a53e7c13c0d4f0b2394b9a2097d604",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-tokenizer": "*",
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "nette/tester": "~1.1"
+            },
+            "suggest": {
+                "ext-fileinfo": "",
+                "ext-gd": "",
+                "ext-mbstring": "",
+                "ext-pdo": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Nette/"
+                ],
+                "files": [
+                    "Nette/common/shortcuts.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "http://nette.org/contributors"
+                }
+            ],
+            "description": "Nette Framework - innovative framework for fast and easy development of secured web applications in PHP. Write less, have cleaner code and your work will bring you joy.",
+            "homepage": "http://nette.org",
+            "keywords": [
+                "Forms",
+                "database",
+                "debugging",
+                "framework",
+                "mailing",
+                "mvc",
+                "templating"
+            ],
+            "time": "2014-05-24 20:35:49"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": [
+
+    ]
+}
